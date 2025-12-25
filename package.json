@@ -1,0 +1,22 @@
+{
+  "name": "emacs-org-mode-theme",
+  "displayName": "Emacs Org Mode Theme",
+  "description": "Emacs/Org-mode inspired dark theme based on a Courier New + zenburn-ish palette.",
+  "version": "0.0.1",
+  "publisher": "ailia",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Emacs Org Mode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Emacs Org Mode-color-theme.json"
+      }
+    ]
+  }
+}
